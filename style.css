@@ -132,6 +132,16 @@ p{
 
 /* Estilos para dispositivos com largura de tela até 768px */
 @media (max-width: 768px) {
+
+    .notes {
+        width: 85%;
+        max-height: 720px;
+    }
+
+    .notes h2 {
+        margin-bottom: 30px;
+    }
+    
     .main-content {
         flex-direction: column;
         align-items: center;
