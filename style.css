@@ -102,7 +102,7 @@ p{
 }
 
 
-/* Adicione esses estilos para a classe .notes */
+
 .notes {
     width: 40%;
     padding: 20px;
@@ -135,7 +135,7 @@ p{
 
     .notes {
         width: 85%;
-        max-height: 720px;
+        max-height: 960px;
     }
 
     .notes h2 {
@@ -166,7 +166,7 @@ p{
 }
 
 /* Estilos para dispositivos com largura de tela até 1024px */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .present {
         font-size: large;
         padding: 10px;
@@ -176,6 +176,20 @@ p{
     
     .qr-code img {
         width: 200px;
+    }
+    .notes {
+        width: 85%;
+        max-height: 960px;
+    }
+    
+    
+}
+/* Estilos para dispositivos com largura de tela até 1850px */
+@media (max-width: 1850px) {
+   
+    .notes {
+        
+        max-height: 960px;
     }
     
     
