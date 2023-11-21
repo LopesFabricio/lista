@@ -178,7 +178,7 @@ p{
         width: 200px;
     }
     .notes {
-        width: 85%;
+    
         max-height: 960px;
     }
     
@@ -188,7 +188,7 @@ p{
 @media (max-width: 1850px) {
    
     .notes {
-        
+        width: 85%;
         max-height: 960px;
     }
     
